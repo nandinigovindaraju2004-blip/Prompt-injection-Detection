@@ -1,16 +1,4 @@
-# Prompt Injection Detection and Prevention Framework for LLMs
-
-A hybrid **rule-based + machine learning** system that analyzes user prompts, scores their
-risk (0–100), classifies them Safe/Malicious, explains *why*, sanitizes or blocks malicious
-input, and only forwards safe prompts to an LLM (OpenAI GPT API).
-
-This repo is a working core implementation of the full spec — real, running code, not a
-mockup. It's intentionally scoped as a strong foundation (MCA final-year-project ready) with
-clear extension points for every "stretch" feature in the original spec (multilingual, RAG-
-specific rules, continuous retraining, PDF/CSV reporting — reporting is already included).
-
----
-
+# Prompt Injection Detection
 ## What's implemented
 
 | Module | Status |
